@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 int main() {
+    int a = 6; // Binary: 0110
 
-  for (int i = 0; i < 100; i++){
-    printf("%d",i);
-  }
-return 0;
+    int result = ~a;
+
+    printf("Result ~ 6 =  %d", result); 
+    return 0;
 }

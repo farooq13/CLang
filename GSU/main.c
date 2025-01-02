@@ -10,5 +10,6 @@ int main() {
   int max = maxNumber(3, 5);
 
   printf("%d", max);
+
   return 0;
 }
